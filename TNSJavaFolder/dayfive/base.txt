@@ -1,0 +1,11 @@
+package com.tnsif.dayfive;
+
+public class base {
+	
+	public base() {
+		super();
+		
+		System.out.println("base class default constructor");
+	}
+
+}

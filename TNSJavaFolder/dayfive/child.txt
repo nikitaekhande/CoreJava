@@ -1,0 +1,12 @@
+package com.tnsif.dayfive;
+
+public class child extends base {
+	
+	public child() {
+		
+		super();
+		
+		System.out.println("child class default constructor");
+	}
+
+}

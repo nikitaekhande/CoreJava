@@ -1,0 +1,15 @@
+package com.tnsif.dayfive;
+
+public class sampleExecutor {
+	
+	public static void main(String args[]) {
+		
+		sample s = new sample();
+		
+		s.defaultNo=200;
+		s.no =400;
+		s.protectedNo=300;
+		System.out.println(s);
+	}
+
+}

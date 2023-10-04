@@ -1,0 +1,12 @@
+package com.tnsif.dayfive;
+
+public class inheritanceDemo {
+	
+	public static void main(String args[]) {
+		
+		child c1 = new child();
+		
+		
+	}
+
+}

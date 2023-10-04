@@ -1,0 +1,22 @@
+package com.tnsif.dayfive;
+
+public class sample {
+   private int privateNo;
+   
+   int defaultNo;
+   protected int protectedNo;
+   public int no;
+   
+   
+   public sample() {
+	   
+   }
+
+
+@Override
+public String toString() {
+	return "sample [privateNo=" + privateNo + ", defaultNo=" + defaultNo + ", protectedNo=" + protectedNo + ", no=" + no
+			+ "]";
+    }
+   
+}
