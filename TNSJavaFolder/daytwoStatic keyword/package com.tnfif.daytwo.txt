@@ -1,0 +1,96 @@
+package com.tnfif.daytwo;
+
+public class TNSbatch {
+	
+	private String UID;
+	private String name;
+	private String branch;
+	private long contactNo;
+	private static String collegeName;
+	private static String ssTrainner;
+	private static String ttTrainner;
+	
+	static {
+		
+		System.out.println("Static block contain");
+		
+		collegeName ="PVG,Nashik";
+		ssTrainner ="Divya";
+		ttTrainner="Alpana";
+	}
+
+	public TNSbatch(String uID, String name, String branch, long contactNo) {
+		super();
+		UID = uID;
+		this.name = name;
+		this.branch = branch;
+		this.contactNo = contactNo;
+	}
+
+	public String getUID() {
+		return UID;
+	}
+
+	public void setUID(String uID) {
+		UID = uID;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getBranch() {
+		return branch;
+	}
+
+	public void setBranch(String branch) {
+		this.branch = branch;
+	}
+
+	public long getContactNo() {
+		return contactNo;
+	}
+
+	public void setContactNo(long contactNo) {
+		this.contactNo = contactNo;
+	}
+
+	public static String getCollegeName() {
+		return collegeName;
+	}
+
+	public static void setCollegeName(String collegeName) {
+		TNSbatch.collegeName = collegeName;
+	}
+
+	public static String getSsTrainner() {
+		return ssTrainner;
+	}
+
+	public static void setSsTrainner(String ssTrainner) {
+		TNSbatch.ssTrainner = ssTrainner;
+	}
+
+	public static String getTtTrainner() {
+		return ttTrainner;
+	}
+
+	public static void setTtTrainner(String ttTrainner) {
+		TNSbatch.ttTrainner = ttTrainner;
+	}
+
+	@Override
+	public String toString() {
+		return "TNSbatch [UID=" + UID + ", name=" + name + ", branch=" + branch + ", contactNo=" + contactNo
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
+	
+
+}
+ 

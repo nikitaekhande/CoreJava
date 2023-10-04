@@ -1,0 +1,24 @@
+package com.tnfif.daytwo;
+
+public class TNSbatchDriver {
+	
+	public static void main(String args[]) {
+     System.out.println("in main");
+     System.out.println(TNSbatch.getCollegeName());
+     System.out.println(TNSbatch.getSsTrainner());
+     System.out.println(TNSbatch.getTtTrainner());
+     
+     TNSbatch s1 = new TNSbatch("14","NIKITA","IT",950370227);
+     TNSbatch s2 = new TNSbatch("12","abhi","IT",670670227);
+     TNSbatch s3 = new TNSbatch("13","arohi","com",674675657);
+     
+    // TNSbatch.setCollegeName("PVG,Nashik");
+     System.out.println(s1);
+     System.out.println(s2);
+     System.out.println(s3);
+     
+   //  System.out.println(TNSbatch.getCollegeName());
+     
+	}
+     
+}
