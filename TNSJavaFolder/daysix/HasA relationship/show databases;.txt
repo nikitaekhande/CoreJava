@@ -1,0 +1,19 @@
+ show databases;
+ 
+  CREATE DATABASE students;
+  
+  USE student;
+
+  
+  CREATE TABLE students (
+    student_id INT ,
+    name VARCHAR(50),
+     marks INT
+	
+);
+
+INSERT INTO students (studnet_id ,name,marks)
+VALUES
+    ('23','nikita',86),
+    ('12','abhi',89),
+    ('23','arohi',90);

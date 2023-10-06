@@ -1,0 +1,26 @@
+package com.tnsif.daysix.singleinheritance;
+
+public class SIExecutor {
+	
+	public static void main(String args[]) {
+		
+		StudentAssessment obj = new StudentAssessment();
+		
+		obj.setUID("TC05040201");
+		obj.setName("nikita");
+		obj.setStream("IT");
+		obj.setContactNo(987677777700l);
+		obj.setBatchNo("TC050402");
+		Student.setSsTrainner("Divya");
+		Student.setTtTrainner("Alpana");
+		Student.setCollegeName("PVG, Nashik");
+		obj.setSsScore(78.50f);
+		obj.setScore(80);
+		
+		System.out.println(obj);
+		
+		System.out.println("college:" + Student.getCollegeName()+ "\tsstrainner:" +Student.getSsTrainner()+ "\tttTrainner:" +Student.getTtTrainner());
+		obj.calculateFinalscore();
+	}
+	
+	
